@@ -18,4 +18,17 @@
     ```bash
     nvim --version | grep clipboard
     ```
+# Language tools
+## C
+1. cgland (lsp)
+2. cgland-tidy (linter)
+- Cannot download in Msaon. 
+```bash
+sudo apt install clang-tidy
+```
+3. clang-format (formatter)
 
+## Python
+1. pyright (lsp)
+2. ruff (linter)
+3. black (formatter)

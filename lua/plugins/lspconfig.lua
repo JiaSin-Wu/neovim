@@ -19,9 +19,15 @@ return {
 		config = function()
 			require("mason-lspconfig").setup({
 				ensure_installed = {
-					"pyright",
+          -- Python
+					"pyright",    --lsp
+          "ruff",       --linter
+          "balck",      --formatter
 					"lua_ls",
-					"clangd",
+
+          --C
+					"clangd",     --lsp
+          "cglang-format",    --formatter
 				},
        automatic_installation = true,
 			})
